@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+  
+    <link rel="stylesheet" href="../css/style.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c8912ad8f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="Sub-header">
+         <nav>
+             <a href="index.html"> <img src="../img/logo.png" ></a>
+    
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li> <a href="index.html">HOME</a></li>
+                 <li> <a href="about.html">ABOUT</a></li>
+                 <li> <a href="course.html">COURSE</a></li>
+                 <li> <a href="blog.html">BLOG</a></li>
+                 <li> <a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+     <!-- javascript code -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu()
+        {
+            navlinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navlinks.style.right="-200px";
+        }
+
+    </script>
+    <!-- About-us content -->
+      <section class="about-us">
+          <div class="row">
+              <div class="about-col">
+                  <h1>We are the world largest University</h1>
+                  <p>
+                    The overflow property specifies what should happen if content overflows an 
+                   element's box. This property specifies whether to clip content or to add 
+                </p>
+                <a href="" class="button red-btn">EXPLORE NOW</a>
+              </div>
+                
+                <div class="about-col">
+                    <img src="../img/about.jpg" alt="">
+                </div>
+              </div>
+          </div>
+      </section>
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            The overflow property specifies what should happen if content overflows an 
+           <br> element's box. This property specifies whether to clip content or to add 
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" ></i> by Murlee</p>
+    </section>
+</body>
+</html>

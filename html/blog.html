@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+  
+    <link rel="stylesheet" href="../css/style.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c8912ad8f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="Sub-header">
+         <nav>
+             <a href="index.html"> <img src="../img/logo.png" ></a>
+    
+         <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="course.html">COURSE</a></li>
+                <li> <a href="blog.html">BLOG</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Certificate & Online Programs for 2022</h1>
+    </section>
+     <!-- javascript code -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu()
+        {
+            navlinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navlinks.style.right="-200px";
+        }
+
+    </script>
+       <!-- Blog page content -->
+       <section class="blog-content">
+           <div class="row">
+           <div class="blog-left">
+               <img src="../img/certificate.jpg" alt="">
+               <h2>Our Certificate & Online Programs for 2022</h2>
+               <p>
+                The demo then changes the flex-basis on the first item. It will then grow and shrink 
+                from that flex-basis. This means that, for example, when the flex-basis of the first 
+                item is 200px, it will start out at 200px but then shrink to fit the space available
+                 with the other items being at least min-content sized.
+               </p>
+               <br>
+               <p>
+                The demo then changes the flex-basis on the first item. It will then grow and shrink 
+                from that flex-basis. This means that, for example, when the flex-basis of the first 
+                item is 200px, it will start out at 200px but then shrink to fit the space available
+                 with the other items being at least min-content sized.
+               </p>
+               <br>
+               <p>
+                The demo then changes the flex-basis on the first item. It will then grow and shrink 
+                from that flex-basis. This means that, for example, when the flex-basis of the first 
+                item is 200px, it will start out at 200px but then shrink to fit the space available
+                 with the other items being at least min-content sized.
+               </p>
+               <p>
+                The demo then changes the flex-basis on the first item. It will then grow and shrink 
+                from that flex-basis. This means that, for example, when the flex-basis of the first 
+                item is 200px, it will start out at 200px but then shrink to fit the space available
+                 with the other items being at least min-content sized.
+               </p>
+               <div class="comment-box">
+                   <h3>Leave a comment</h3>
+
+                   <form class="comment-form">
+                       <input type="text" placeholder="Enter your name">
+                       <input type="email" placeholder="Enter your email">
+                       <textarea  rows="5" placeholder="Your comments"></textarea>
+                       <button type="submit" class="button red-btn">POST COMMENT</button>
+                   </form>
+               </div>
+           </div>
+           <div class="blog-right">
+                  <h3>Post Catagories</h3>
+         
+           <div>
+               <span>
+                   Business Analytics
+               </span>
+               <span>28</span>
+
+           </div>
+           <div>
+            <span>
+              Machine Learning
+            </span>
+            <span>21</span>
+            
+        </div>
+        <div>
+            <span>
+              Data Science
+            </span>
+            <span>15</span>
+            
+        </div>
+        <div>
+            <span>
+                Computer Science
+            </span>
+            <span>12</span>
+            
+        </div>
+        </div>
+       </section>
+   
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            The overflow property specifies what should happen if content overflows an 
+           <br> element's box. This property specifies whether to clip content or to add 
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" ></i> by Murlee</p>
+    </section>
+</body>
+</html>
